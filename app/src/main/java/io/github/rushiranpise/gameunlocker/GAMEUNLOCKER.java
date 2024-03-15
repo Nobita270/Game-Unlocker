@@ -37,7 +37,7 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
 
     // Packages to Spoof as Asus Rog 8
         private static final String[] PACKAGE_ROG8 = {
-        "com.evo.inware"
+        "com.tencent.ig"
     };
 
     // Packages to Spoof as iQOO Neo 7
@@ -97,8 +97,7 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
         "com.mobile.legends",
         "com.mobilelegends.mi",
         "com.supercell.clashofclans",
-        "com.vng.mlbbvn",
-        "com.tencent.ig"
+        "com.vng.mlbbvn"
     };
 
     // Packages to Spoof as Black Shark 4
