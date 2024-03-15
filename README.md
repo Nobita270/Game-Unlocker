@@ -28,7 +28,7 @@ To get started with Game Unlocker, follow these steps:
 
 2. Install the Xposed/Lsposed Framework on your device.
    
-3. Download the Game Unlocker module from the [releases section](https://github.com/rushiranpise/game-unlocker/releases) of this repository.
+3. Download the Game Unlocker module from the [releases section](https://github.com/legendsjoon/game-unlocker/releases) of this repository.
 
 4. Install the downloaded apk :
    - Open Xposed/Lsposed Manager.
@@ -45,7 +45,7 @@ You can untick the game you don't want to spoof for the module scope. Force stop
 
 **Note:** Keep in mind that device spoofing may violate the terms of service for some games or apps.
 
-Report any suggestions/issues with games [here](https://github.com/rushiranpise/Game-Unlocker/issues)
+Report any suggestions/issues with games [here](https://github.com/legendsjoon/Game-Unlocker/issues)
 
 ## Supported Games
 
