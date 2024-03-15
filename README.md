@@ -1,4 +1,8 @@
 # Game-Unlocker
+## About this fork
+
+- I want to customize myself so that's why xD
+
 ## Unlock higher FPS in games
 Spoof your device as different model for specific games to unlock higher FPS
 
