@@ -35,6 +35,11 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
         "com.gameloft.android.ANMP.GloftA9HM"
     };
 
+    // Packages to Spoof as Asus Rog 8
+        private static final String[] PACKAGE_ROG8 = {
+        "com.evo.inware"
+    };
+
     // Packages to Spoof as iQOO Neo 7
     private static final String[] PACKAGE_NEO7 = {
         "com.pubg.imobile"
@@ -119,6 +124,10 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
             ROG6();
             XposedBridge.log("Spoofed " + packageName + " as Asus ROG 6");
         }
+        if (Arrays.asList(PACKAGE_ROG8).contains(packageName)) {
+            ROG8();
+            XposedBridge.log("Spoofed " + packageName + " as Asus ROG 8");
+        }
 
         // Blackshark
         if (Arrays.asList(PACKAGE_BS4).contains(packageName)) {
@@ -188,6 +197,13 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
         setPropValue("MANUFACTURER", "asus");
         setPropValue("DEVICE", "AI2201");
         setPropValue("MODEL", "ASUS_AI2201");
+    }
+    // Props to Spoof as Asus Rog 8
+    private static void ROG8() {
+        setPropValue("BRAND", "asus");
+        setPropValue("MANUFACTURER", "asus");
+        setPropValue("DEVICE", "AI2401");
+        setPropValue("MODEL", "ASUS_AI2401");
     }
 
     // Blackshark
