@@ -13,6 +13,7 @@ Spoof your device as different model for specific games to unlock higher FPS
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [License](#license)
+- [Credit](#credit)
 - [Contributing](#contributing)
 
 ## Getting Started
