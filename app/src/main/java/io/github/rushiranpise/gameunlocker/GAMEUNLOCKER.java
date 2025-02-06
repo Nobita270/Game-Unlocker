@@ -37,7 +37,8 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
 
     // Packages to Spoof as Asus Rog 8
         private static final String[] PACKAGE_ROG8 = {
-        "com.tencent.ig"
+        "com.dts.freefiremax",
+        "com.dts.freefireth"
     };
 
     // Packages to Spoof as iQOO Neo 7
@@ -58,8 +59,7 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
 
     // Packages to Spoof as Poco F5
     private static final String[] PACKAGE_F5 = {
-        "com.dts.freefiremax",
-        "com.dts.freefireth"
+        "com.tencent.ig"
     };
 
     // Packages to Spoof as OnePlus 8 Pro
@@ -125,7 +125,7 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
         }
         if (Arrays.asList(PACKAGE_ROG8).contains(packageName)) {
             ROG8();
-            XposedBridge.log("Spoofed " + packageName + " as Asus ROG 8");
+            XposedBridge.log("Spoofed " + packageName + " as Asus ROG 9 PRO");
         }
 
         // Blackshark
@@ -201,8 +201,8 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
     private static void ROG8() {
         setPropValue("BRAND", "asus");
         setPropValue("MANUFACTURER", "asus");
-        setPropValue("DEVICE", "AI2401");
-        setPropValue("MODEL", "ASUS_AI2401");
+        setPropValue("DEVICE", "AI2501-3B036WW");
+        setPropValue("MODEL", "ASUS_AI2501-3B036WW");
     }
 
     // Blackshark
